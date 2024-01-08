@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" Module to invert functions"""
+
 
 class MyInt(int):
     """ Class to rebel int """
