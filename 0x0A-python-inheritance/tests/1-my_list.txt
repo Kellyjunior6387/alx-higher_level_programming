@@ -1,0 +1,22 @@
+ >>> MyList = __import__('1-my_list').MyList
+
+
+ >>> ml = MyList()
+    >>> type(ml) == MyList
+    True
+
+>> type(MyList.__dict__['print_sorted'])
+    <class 'function'>
+
+>>> ml = MyList()
+    >>> ml.print_sorted()
+    []
+
+ >>> ml = MyList([2, 10, 1])
+    >>> ml.print_sorted()
+    [1, 2, 10]
+
+>>> ml = MyList([-20 ,-10, 0, 1, 2, 10, 20, 30, 40 ,100])
+    >>> ml.print_sorted()
+    [-20 ,-10, 0, 1, 2, 10, 20, 30, 40 ,100]
+

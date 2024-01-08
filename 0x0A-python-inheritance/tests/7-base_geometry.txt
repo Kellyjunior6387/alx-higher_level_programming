@@ -1,0 +1,13 @@
+ >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+
+
+ >>> bg = BaseGeometry()
+    >>> type(bg) == BaseGeometry
+    True
+
+>>> type(BaseGeometry.__dict__['area'])
+    <class 'function'>
+
+integer_validator method empty string:
+    >> bg.integer_validator(None, 1)
