@@ -1,4 +1,5 @@
 #!/bin/bash
+#Send a url
 
 if [ $# -ne 2 ]; then
     echo "Usage: $0 <URL> <filename>"

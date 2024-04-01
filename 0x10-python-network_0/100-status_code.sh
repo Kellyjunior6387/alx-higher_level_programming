@@ -1,4 +1,5 @@
 #!/bin/bash
+#Send a url
 
 # Check if URL argument is provided
 if [ $# -ne 1 ]; then

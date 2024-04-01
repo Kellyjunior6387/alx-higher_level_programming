@@ -1,4 +1,5 @@
 #1/bin/bash
+#Send a url
 
 if [ $# -ne 1 ]; then
 	echo "Usage: $0 <URL>"
