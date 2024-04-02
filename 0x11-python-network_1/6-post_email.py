@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """send an email to the url and print the response"""
 
 from requests import post

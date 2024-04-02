@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""get https://alx-intranet.hbtn.io/status"""
 from urllib import request, error
+
+"""get https://alx-intranet.hbtn.io/status"""
 
 if __name__ == "__main__":
     url = "https://alx-intranet.hbtn.io/status"
