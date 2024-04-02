@@ -5,6 +5,7 @@ get https://alx-intranet.hbtn.io/status using
 requests and print the response to stdout
 """
 
+import requests
 from requests import get
 
 
