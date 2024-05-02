@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Loop from 3 to 7
+for ((i=8; i<=9; i++))
+do
+    # Create file with name 'number-script.js'
+    jsfile="${i}-script.js"
+    htmlfile="${i}-main.html"
+    touch "$jsfile"
+    touch "$htmlfile"
+    echo "Files created"
+done
+
